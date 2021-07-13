@@ -1,0 +1,22 @@
+{
+	"requests": {
+		"archives": [
+			"/category/news",
+			"/category/sports"
+		],
+		"singles": [
+			"/article/1",
+			"/article/2",
+			"/article/3",
+			"/article/4"
+		]
+	},
+	"auth": {
+		"user": "admin",
+		"pass": "password"
+	},
+	"wait": {
+		"min": 2,
+		"max": 4
+	}
+}
