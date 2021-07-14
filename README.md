@@ -88,6 +88,12 @@ locust
 export WP_STRESS_TEST=dev && locust
 ```
 
+環境変数を有効にしたままだと `setting-*.json` が使われ続けるので、元に戻したい場合は環境変数をクリアしてください。
+
+```
+unset WP_STRESS_TEST
+```
+
 実行すると、Web UI（e.g. `http://localhost:8089/` ）が生成されるのでアクセスします。
 
 - Number of total users to simulate = テストする合計人数
